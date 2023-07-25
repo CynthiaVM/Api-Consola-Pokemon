@@ -1,9 +1,10 @@
 [
   {
-    "name": "pikachu",
+    "name": "rattata",
     "abilities": [
-      "static",
-      "lightning-rod"
+      "run-away",
+      "guts",
+      "hustle"
     ]
   }
 ]
