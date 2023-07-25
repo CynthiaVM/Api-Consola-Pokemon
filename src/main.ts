@@ -59,7 +59,7 @@ const mostrarConsultas = () => {
  //Esta función realiza una solicitud GET a la API de Pokémon (https://pokeapi.co/api/v2/pokemon/) con el nombre del Pokémon ingresado como parte de la URL. 
 //Despues utiliza la respuesta de la API para crear un objeto pokemonData con el nombre del Pokémon,habilidades. 
 //El objeto pokemonData sigue la estructura definida en la interfaz Pokemon.
-//Después de obtener los datos del Pokémon, la función llama a guardarConsultasEnArchivo() para guardar la información en un archivo
+//Después de obtener los datos del Pokémon, la función llama a guardarConsultasEnArchivo() para guardar la info en un archivo
 //y despues muestra los datos del Pokémon en la consola.
 
 const guardarConsultasEnArchivo = () => {
@@ -73,7 +73,7 @@ const guardarConsultasEnArchivo = () => {
 	});
   };
   
-//Esta función recibe los datos del Pokémon (pokemonData)  y los convierte en formato JSON utilizando JSON.stringify(). 
+//Esta función recibe los datos del Pokémon (pokemonData) y los convierte en formato JSON utilizando JSON.stringify(). 
 //Despues utiliza fs.writeFile() para escribir el JSON en un archivo llamado pokemon_data.json.
 //Si surge algún error durante la escritura del archivo, se muestra un mensaje de error en la consola sino se muestra un mensaje de éxito.
 
