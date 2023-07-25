@@ -1,0 +1,9 @@
+[
+  {
+    "name": "pikachu",
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  }
+]
